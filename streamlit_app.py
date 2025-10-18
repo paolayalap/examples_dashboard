@@ -23,7 +23,23 @@ st.button(
     on_click=correr_modelo,
     kwargs={"k": 5},
 )
+st.markdown("""
+<style>
+div.stButton > button {
+    background-color: #ff4b4b;   /* rojo personalizado */
+    color: white;
+    border-radius: 12px;
+    padding: 0.6em 1.2em;
+    font-weight: bold;
+    border: none;
+}
+div.stButton > button:hover {
+    background-color: #ff7878;   /* color al pasar el mouse */
+    transform: scale(1.03);
+}
+</style>
+""", unsafe_allow_html=True)
 
-
+st.button("Botón rojo personalizado")
 
 
