@@ -56,6 +56,5 @@ st.button(
 )
 
 if st.button("Procesar datos"):
-    st.success("¡Listo!", 
-               type="secundary",)
+    st.success("¡Listo!", type="secondary")
 
