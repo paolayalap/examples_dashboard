@@ -43,14 +43,14 @@ st.button(
     kwargs={"k": 5},
 )
 
-def boton1(i):
-    st.write(f"Número de veces que se ha presionado el botón: {i}")
+def boton1(k):
+    st.write(f"Número de veces que se ha presionado el botón: {k}")
 st.button(
     "Numeración",
     type="secundary",
     help ="", #esta ayuda aparece cuando se pasa el cursor por encima del botón
     on_click=boton1,
-    
+    kwargs = {"k"},
 )
 
 
