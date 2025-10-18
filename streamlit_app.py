@@ -7,7 +7,7 @@ st.header("Encabezado intermedio")
 st.subheader("Subtítulo")
 st.text("Texto plano (sin formato)")
 st.caption("Texto tipo nota o pie de página")
-st.write('Hi everyone!')
+st.write('Escritura')
 st.markdown("*Texto en cursiva*")
 st.markdown("**Texto en negrita**")
 st.markdown("***Texto en cursiva y negrita***")
@@ -56,5 +56,6 @@ st.button(
 )
 
 if st.button("Procesar datos"):
-    st.success("¡Listo!", type="secundary")
+    st.success("¡Listo!", 
+               type="secundary",)
 
