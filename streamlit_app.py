@@ -50,7 +50,7 @@ st.button(
     type="secundary",
     help ="", #esta ayuda aparece cuando se pasa el cursor por encima del botón
     on_click=boton1,
-    kwargs = {"k"},
+    kwargs = {"k":0+n},
 )
 
 
